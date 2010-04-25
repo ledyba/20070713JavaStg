@@ -1,0 +1,164 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><!--JBuilder QuickDoc-->
+<HEAD>
+<TITLE>Class shooting.GameMode.Stage.eachStage.SampleStage</TITLE><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+</HEAD>
+<BODY>
+
+<H2>
+<FONT SIZE="-1">shooting.GameMode.Stage.eachStage</FONT>
+<BR>クラス SampleStage</H2>
+<DL>
+<DT>public class <B>SampleStage</B><DT>extends shooting.GameMode.Stage.Stage
+</DL>
+<DL><DD><p>タイトル: シューティングゲーム（仮）</p> <p>説明: サンプルステージです．テスト用．</p> <p>著作権: Copyright (c) 2005 PSI</p> <p>会社名: </p><DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>バージョン:</B><DD>1.0</DD>
+<DT><B>作成者:</B><DD>未入力</DD>
+</DL>
+<TABLE BORDER="1" CELLPADDING="3" CELLSPACING="0" WIDTH="100%">
+<TR BGCOLOR="#CCCCFF"><TD COLSPAN=1><FONT SIZE="+2">
+<B>メソッドの詳細</B>
+</FONT></TD></TR></TABLE>
+
+<A NAME="run()"></A>
+
+<H3>run</H3>
+<PRE>
+public void <B>run</B>()</PRE>
+<DL><DD>主にフレーム管理．実際のゲームに関しては別の方で行います．<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<A NAME="gameInit()"></A>
+
+<H3>gameInit</H3>
+<PRE>
+private void <B>gameInit</B>()</PRE>
+<DL><DD>ゲーム開始の処理<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<A NAME="game()"></A>
+
+<H3>game</H3>
+<PRE>
+private void <B>game</B>()</PRE>
+<DL><DD>実際のゲームの処理（１フレーム分）<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<A NAME="frameWait()"></A>
+
+<H3>frameWait</H3>
+<PRE>
+private synchronized void <B>frameWait</B>()</PRE>
+<DL><DD>次のフレームに移るまで待機します．<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<A NAME="myShipBorn()"></A>
+
+<H3>myShipBorn</H3>
+<PRE>
+private void <B>myShipBorn</B>()</PRE>
+<DL><DD>自機を生みます．<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<A NAME="deadCheck()"></A>
+
+<H3>deadCheck</H3>
+<PRE>
+private void <B>deadCheck</B>()</PRE>
+<DL><DD>自機が死んだかどうかのチェックです．<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<A NAME="getLayers()"></A>
+
+<H3>getLayers</H3>
+<PRE>
+public java.util.LinkedList[] <B>getLayers</B>()</PRE>
+<DL><DD>オブジェクトの入ったリンクリストを返します [0]:back [1]:lnd [2]:friend_bull [3]:friend_chr [4]:enemy_bull [5]:enemy_chr [6]:score<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>戻り値:</B><DD>LinkedList[]</DD>
+</DL>
+<HR>
+
+<A NAME="getInput()"></A>
+
+<H3>getInput</H3>
+<PRE>
+public byte <B>getInput</B>()</PRE>
+<DL><DD>入力を返します<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>戻り値:</B><DD>byte</DD>
+</DL>
+<HR>
+
+<A NAME="getShips()"></A>
+
+<H3>getShips</H3>
+<PRE>
+public int <B>getShips</B>()</PRE>
+<DL><DD>残機を返します<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>戻り値:</B><DD>int</DD>
+</DL>
+<HR>
+
+<A NAME="addShips(int)"></A>
+
+<H3>addShips</H3>
+<PRE>
+public void <B>addShips</B>(int&nbsp;n)</PRE>
+<DL><DD>残機を増やしたり減らしたり．<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>パラメータ:</B><DD><CODE>n</CODE> - int</DD>
+</DL>
+<HR>
+
+<A NAME="addObj(shooting.GameMode.Stage.basic.object, int)"></A>
+
+<H3>addObj</H3>
+<PRE>
+public void <B>addObj</B>(shooting.GameMode.Stage.basic.object&nbsp;o,
+                   int&nbsp;Layer)</PRE>
+<DL><DD>オブジェクトを追加します． 弾の発生時などに使います．<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>パラメータ:</B><DD><CODE>o</CODE> - Object</DD>
+<DD><CODE>Layer</CODE> - int</DD>
+</DL>
+<HR>
+
+<A NAME="addScore(int)"></A>
+
+<H3>addScore</H3>
+<PRE>
+public void <B>addScore</B>(int&nbsp;score)</PRE>
+<DL><DD>スコアを加えます．<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>パラメータ:</B><DD><CODE>score</CODE> - int</DD>
+</DL>
+<HR>
+
+<A NAME="getScore()"></A>
+
+<H3>getScore</H3>
+<PRE>
+public int <B>getScore</B>()</PRE>
+<DL><DD>スコアをもらいます．<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>戻り値:</B><DD>int</DD>
+</DL>
+<HR>
+
+</BODY>
+</HTML>

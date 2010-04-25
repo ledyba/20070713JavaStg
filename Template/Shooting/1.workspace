@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace name="ワークスペース2" personality="com.borland.jbuilder.personality.JavaPersonality" weight="-1">
+  <workspace-layout>
+    <bookmark-container>
+      <split-container added-to-parent-with-constraints="bookmark-constraints-center" divider-location="-7.8125E-4" split-orientation="split-orientation-horizontal">
+        <split-container added-to-parent-with-constraints="split-constraints-left" divider-location="0.6992143658810326" split-orientation="split-orientation-vertical">
+          <split-container added-to-parent-with-constraints="split-constraints-left" divider-location="0.24330708661417322" split-orientation="split-orientation-horizontal">
+            <split-container added-to-parent-with-constraints="split-constraints-left" divider-location="0.4935064935064935" split-orientation="split-orientation-vertical">
+              <tab-container added-to-parent-with-constraints="split-constraints-left">
+                <window-container active-window="true" selected-tab="true" view_type="project_browser_tree_view" window-closed="false"/>
+                <window-container view_type="project_directory_tree_view" window-closed="false"/>
+              </tab-container>
+              <tab-container added-to-parent-with-constraints="split-constraints-right">
+                <window-container selected-tab="true" view_showable="true" view_type="structure-view" window-closed="false"/>
+              </tab-container>
+            </split-container>
+            <split-container added-to-parent-with-constraints="split-constraints-right" divider-location="-0.001610305958132045" split-orientation="split-orientation-vertical">
+              <tab-container added-to-parent-with-constraints="split-constraints-right">
+                <window-container selected-tab="true" view_showable="true" view_type="content-view" window-closed="false"/>
+              </tab-container>
+            </split-container>
+          </split-container>
+          <tab-container added-to-parent-with-constraints="split-constraints-right">
+            <window-container selected-tab="true" view_showable="true" view_type="message-view" window-closed="false"/>
+          </tab-container>
+        </split-container>
+      </split-container>
+    </bookmark-container>
+  </workspace-layout>
+</workspace>

@@ -1,0 +1,93 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><!--JBuilder QuickDoc-->
+<HEAD>
+<TITLE>Class shooting.GameMode.Stage.basic.object</TITLE><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+</HEAD>
+<BODY>
+
+<H2>
+<FONT SIZE="-1">shooting.GameMode.Stage.basic</FONT>
+<BR>クラス object</H2>
+<DL>
+<DT>public abstract class <B>object</B>
+</DL>
+<DL><DD><p>タイトル: シューティングゲーム（仮）</p> <p>説明: オブジェクトの抽象クラスです</p> <p>著作権: Copyright (c) 2005 PSI</p> <p>会社名: </p><DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>バージョン:</B><DD>1.0</DD>
+<DT><B>作成者:</B><DD>未入力</DD>
+</DL>
+<TABLE BORDER="1" CELLPADDING="3" CELLSPACING="0" WIDTH="100%">
+<TR BGCOLOR="#CCCCFF"><TD COLSPAN=1><FONT SIZE="+2">
+<B>メソッドの詳細</B>
+</FONT></TD></TR></TABLE>
+
+<A NAME="setPoint(shooting.GameMode.Stage.basic.point)"></A>
+
+<H3>setPoint</H3>
+<PRE>
+abstract void <B>setPoint</B>(shooting.GameMode.Stage.basic.point&nbsp;point)</PRE>
+<DL><DD>座標（と大きさ）を設定します<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>パラメータ:</B><DD><CODE>point</CODE> - point</DD>
+</DL>
+<HR>
+
+<A NAME="getPoint()"></A>
+
+<H3>getPoint</H3>
+<PRE>
+abstract shooting.GameMode.Stage.basic.point <B>getPoint</B>()</PRE>
+<DL><DD>座標（と大きさ）を返します<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>戻り値:</B><DD>point</DD>
+</DL>
+<HR>
+
+<A NAME="setVisible(boolean)"></A>
+
+<H3>setVisible</H3>
+<PRE>
+abstract void <B>setVisible</B>(boolean&nbsp;isVisible)</PRE>
+<DL><DD>見えるようにするか，しないかを設定します<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>パラメータ:</B><DD><CODE>isVisible</CODE> - boolean</DD>
+</DL>
+<HR>
+
+<A NAME="getVisible()"></A>
+
+<H3>getVisible</H3>
+<PRE>
+abstract boolean <B>getVisible</B>()</PRE>
+<DL><DD>見えているかの現在の状況を返します<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>戻り値:</B><DD>boolean</DD>
+</DL>
+<HR>
+
+<A NAME="judge()"></A>
+
+<H3>judge</H3>
+<PRE>
+abstract boolean <B>judge</B>()</PRE>
+<DL><DD>当たり判定を行います<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>戻り値:</B><DD>boolean</DD>
+</DL>
+<HR>
+
+<A NAME="draw(java.awt.Graphics, int)"></A>
+
+<H3>draw</H3>
+<PRE>
+abstract void <B>draw</B>(java.awt.Graphics&nbsp;g,
+                   int&nbsp;isHitDisp)</PRE>
+<DL><DD>描写します．<br> 注意：レイヤで扱うのでバッファをクリアしないこと！<br> 0:ヒットディスプレイなし<br> 1:ヒットディスプレイあり<br> 2:ヒットディスプレイのみ<br><DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>パラメータ:</B><DD><CODE>g</CODE> - Graphics</DD>
+<DD><CODE>isHitDisp</CODE> - int</DD>
+</DL>
+<HR>
+
+</BODY>
+</HTML>

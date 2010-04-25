@@ -1,0 +1,27 @@
+[PropertyInfo]
+alive,boolean,false,false, , ,true,<デフォルト >
+aliveCount,int,false,false, , ,false,<デフォルト >
+AREA,int[],false,false, , ,false,<デフォルト >
+bullet,shooting.GameMode.Stage.basic.bullPattern,false,false, , ,false,<デフォルト >
+code,int,false,false, , ,true,<デフォルト >
+damege,int,false,false, , ,true,<デフォルト >
+dirX,int,false,false, , ,false,<デフォルト >
+isAlive,boolean,false,false, , ,false,<デフォルト >
+isEscape,boolean,false,false, , ,false,<デフォルト >
+killed,boolean,false,false, , ,true,<デフォルト >
+lineColor,java.awt.Color,false,false, , ,false,<デフォルト >
+MoveX,int,false,false, , ,false,<デフォルト >
+MoveY,int,false,false, , ,false,<デフォルト >
+point,shooting.GameMode.Stage.basic.point,false,false, , ,true,<デフォルト >
+Point,shooting.GameMode.Stage.basic.point,false,false, , ,false,<デフォルト >
+Shield,int,false,false, , ,false,<デフォルト >
+shipColor,java.awt.Color,false,false, , ,true,<デフォルト >
+shotHitColor,java.awt.Color,false,false, , ,false,<デフォルト >
+stage,shooting.GameMode.Stage.Stage,false,false, , ,true,<デフォルト >
+stg,shooting.GameMode.Stage.Stage,false,false, , ,false,<デフォルト >
+visible,boolean,false,false, , ,true,<デフォルト >
+[IconNames]
+
+
+
+
